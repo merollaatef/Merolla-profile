@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #f9f9f9;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #00bfa5;
+}
+
+.hero {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  padding: 80px 60px;
+  min-height: 100vh;
+  background-image: url('egyptian-pharaohs-gods-papyrus-background-egyptian-pharaoh-papyrus-background-100971219.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .media img{
+  height: 20px;
+}
+.hero .text {
+  max-width: 500px;
+  
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 10px 25px;
+  background: #00bfa5;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  background: #009e8a;
+}
